@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 REM ==========================================================================
 REM System Information Gathering and DNS Exfiltration Script
-REM Author: AI Assistant
+REM Author: Jacques Gariépy
 REM Date: %DATE%
 REM IMPORTANT: This script must be run as an administrator!
 REM            (Right-click -> Run as administrator)
