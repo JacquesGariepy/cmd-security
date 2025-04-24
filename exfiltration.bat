@@ -5,10 +5,39 @@ REM ==========================================================================
 REM System Information Gathering and DNS Exfiltration Script
 REM Author: Jacques Gariépy
 REM Date: %DATE%
-REM IMPORTANT: This script must be run as an administrator!
-REM            (Right-click -> Run as administrator)
-REM WARNING: This script performs data exfiltration via DNS.
-REM          Use requires explicit authorization and a controlled domain/DNS server.
+REM ==========================================================================
+REM
+REM                           *** IMPORTANT WARNING ***
+REM
+REM This script performs data exfiltration techniques (DNS exfiltration).
+REM This method is often used by malicious actors.
+REM Ensure you have EXPLICIT AUTHORIZATION before running this script
+REM and that you understand the implications.
+REM Use is entirely at your own risk. You are responsible for:
+REM   1. Obtaining necessary permissions.
+REM   2. Complying with all applicable laws and policies.
+REM   3. Configuring the receiving DNS server for the specified domain.
+REM
+REM ==========================================================================
+REM
+REM                      *** EDUCATIONAL NOTE ***
+REM
+REM The system information gathering and DNS exfiltration script previously
+REM provided is intended for purely educational and demonstrative purposes.
+REM It illustrates techniques that can be used both for legitimate security
+REM audits (with explicit authorization) and for malicious purposes.
+REM Using such techniques without authorization is illegal and unethical.
+REM Running this script is at the user's own risk, and the user is
+REM responsible for ensuring they have the necessary permissions and
+REM comply with all applicable laws and policies. This script should
+REM not be used in a production environment without a thorough risk
+REM assessment and formal authorization.
+REM
+REM ==========================================================================
+REM
+REM This script must be run as an administrator!
+REM (Right-click -> Run as administrator)
+REM
 REM ==========================================================================
 
 REM -- Mode Configuration --
